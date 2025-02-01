@@ -81,8 +81,23 @@ export default {
       for (const combination of winningCombinations) {
         const [a, b, c] = combination
         if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+          setTimeout(() => {
+            if (confirm(`${board[a]} wins! Do you want to play again?`)) {
+              resetGame()
+            }
+          }, 100)
           return board[a]
         }
+      }
+
+      // Check for a tie
+      if (board.every(cell => cell)) {
+        setTimeout(() => {
+          if (confirm("It's a tie! Do you want to play again?")) {
+            resetGame()
+          }
+        }, 100)
+        return null
       }
 
       return null
