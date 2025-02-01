@@ -23,6 +23,8 @@
   </div>
 </template>
 
+///////////////////////
+
 <script>
 
 import { ref } from 'vue';
@@ -91,7 +93,7 @@ export default {
 }
 </script>
 
-/////////////
+///////////////////////
 
 <style scoped>
 
@@ -104,7 +106,7 @@ p {
 }
 
 h3 {
-    color: goldenrod;
+    color: rgb(225, 105, 0);
     text-shadow: 2px 2px 2px aliceblue;
 }
 
@@ -168,6 +170,8 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 button:hover {
