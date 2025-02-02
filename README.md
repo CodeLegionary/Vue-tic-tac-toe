@@ -1,7 +1,8 @@
 # Tic-tac-toe README
 
 ## Introduction
-This template serves as an excellent starting point to develop with Vue. The app is a tic-tac-toe game made using Vite as the build tool. Moreover, at the end of this document, you can find info relative to the game.
+This template serves as an excellent starting point to develop with Vue. The app is a classic tic-tac-toe game made using Vite as the build tool.
+Follow the instructions below to create the dist and node_modules folders. Moreover, at the end of this document, you can find info relative to the game.
 
 ## Recommended IDE Setup
 
@@ -30,4 +31,6 @@ npm run build
 ```
 
 ## Game Information
-A typical board game. By clicking the 'New Game' button, you can start a new match. To reset the score, simply refresh the page. It's as simple as that!
+A typical board game. By clicking the 'New Game' button, you can start a new match. To reset the score, simply refresh the page.
+In addition to this, when a player wins the game, an alert will be displayed asking if the player wants to play again.
+It's as simple as that!
