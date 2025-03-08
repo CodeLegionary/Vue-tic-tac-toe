@@ -31,6 +31,6 @@ npm run build
 ```
 
 ## Game Information
-A typical board game. By clicking the 'New Game' button, you can start a new match. To reset the score, simply refresh the page.
-In addition to this, when a player wins the game, an alert will be displayed asking if the player wants to play again.
+A typical board game. By clicking the 'New Match' button, you can start a new single game. To reset the total score, simply refresh the page.
+In addition to this, when the match is over, an alert will be displayed asking if the player wants to play again.
 It's as simple as that!
