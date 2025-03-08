@@ -1,7 +1,7 @@
 <template>
   <div class="game">
     <div class="status">
-      <h2>Current Match:</h2>
+      <h2>Current MATCH:</h2>
       <h3 v-if="welcomeMessage" style="color: #35df;">{{ welcomeMessage }}</h3>
       <h3 v-else-if="!gameOverMessage">{{ currentPlayer }}, is your turn!</h3>
       <h3 v-else>{{ gameOverMessage }}</h3>
@@ -14,7 +14,7 @@
     <button class="reset" :disabled="gameOver" @click="resetMatch">New Match</button>
 
     <div class="status">
-      <h2>Game Scores:</h2>
+      <h2>GAME Scores:</h2>
       <p>Matches won by X = {{ xWins }}</p>
       <p>Matches won by O = {{ oWins }}</p>
     </div>

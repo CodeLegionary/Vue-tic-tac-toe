@@ -25,6 +25,10 @@ h1, h2 {
   padding: 0;
 }
 
+.green {
+  margin-top: 18px;
+}
+
 h1 {
   color: rgb(0, 64, 0);
   font-weight: 500;
@@ -66,9 +70,5 @@ h2 {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.green {
-  margin-top: 10px;
 }
 </style>

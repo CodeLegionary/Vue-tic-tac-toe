@@ -13,7 +13,7 @@
         So X will be the one to begin the game, as well as each match.
         </p>
         <p>
-        <strong>No Time Limit: &#x231B; </strong> ..just have fun
+        <strong>No Time Limit: &#x231B; </strong> ..just have fun!
         </p>
         </div>
     </div>

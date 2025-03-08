@@ -21,7 +21,7 @@ import Rules from './components/Rules.vue';
 
 // Mobile First Approach Style
 
-<style scoped>
+<style>
 #app {
   text-align: center;
 }
@@ -84,5 +84,22 @@ p {
   #container > div {
     line-height: 1.4;
   }
+}
+
+@media (min-width: 1020px) {
+  #container .history p, #container .rules p {
+    line-height: 1.8;
+  }
+  h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1220px) {
+  #container .history p, #container .rules p {
+    line-height: 2.2;
+  }
+  h2{
+    font-size: 1.2rem;}
 }
 </style>
